@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("Please enter a task");
     }
 
-    const listItem = document.createElement("li"); //Create li
+    const listItem = document.createElement("li"); //Creating a list item
     listItem.textContent = taskText;
 
-    const removeButton = document.createElement("button"); //create remove Button
+    const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
     removeButton.className = "remove-btn";
 
